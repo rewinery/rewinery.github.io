@@ -7,4 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I am an undergraduate student at School of the Gifted Young of University of Science and Technology of China, majoring in computer science.
+Qirun Zeng is an undergraduate student at the USTC School of the Gifted Young, majoring in computer science. His interest lies in:
+
+- Algorithm
+- Machine learning
+- Game theory
+
+He will soon be studying as a Ph.D. student at cityU.
