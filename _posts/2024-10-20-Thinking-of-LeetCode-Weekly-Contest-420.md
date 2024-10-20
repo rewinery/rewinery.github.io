@@ -3,7 +3,6 @@ title: 'leetcode 第 420 场周赛有感'
 date: 2024-10-20
 permalink: /posts/2024/10/Thinking-of-LeetCode-Weekly-Contest-420/
 tags:
-  - cool posts
   - Leetcode
   - Weekly Contest
 ---
