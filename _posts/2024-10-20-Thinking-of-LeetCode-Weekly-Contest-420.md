@@ -28,10 +28,10 @@ A 了 T1、T2、T3，但是排名直逼 6000......
 >
 > 如果 无法 将数组变成非递减的，请你返回 -1 。
 > 数据范围：
-> - $1 \leq \text{nums.length} \leq 10^5$
-> - $1 \leq \text{num} \leq 10^6$
+> - `1 <= nums.length <= 10^5`
+> - `1 <= num <= 10^6`
 
-读题：一眼埃拉托斯特尼筛法，用 $O(\text{num}\log\log \text{num})$ 的时间预处理，之后没一轮只需判断 `nums[i] > nums[i+1]` 是否成立，若成立，则将 `nums[i]` 替换为 `nums[i]` 的最小质因数即可。若无法替换或替换之后依旧比 `nums[i+1]` 大，那么 `return -1`。总时间开销为 $O(\text{n} + \text{num}\log\log \text{num})$。
+读题：一眼埃拉托斯特尼筛法，用 `O(num log log num)` 的时间预处理，之后没一轮只需判断 `nums[i] > nums[i+1]` 是否成立，若成立，则将 `nums[i]` 替换为 `nums[i]` 的最小质因数即可。若无法替换或替换之后依旧比 `nums[i+1]` 大，那么 `return -1`。总时间开销为 `O(n + num log log num)`。
 
 思路没问题。但是事后逛了讨论区才知道：力蔻是把所有测试点一起计算时间和空间开销的。于是我的代码就这样被 `MLE` 了。
 
