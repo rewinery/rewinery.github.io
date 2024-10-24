@@ -1,10 +1,12 @@
 ---
-title: '升学感想'
+title: 'Thinking on getting Ph.D. offer'
 date: 2024-10-18
 permalink: /posts/2024/10/Think-of-PhD/
 tags:
-  - 升学
-  - Ph.D.
+ - thought
+ - Ph.D.
 ---
 
-基本确定了能去 cityU 读 Ph.D. 唐的是这个学期乃至下个学期还要上一些课。现在正在慢慢学多臂老虎机，准备和导师一起做毕设。希望一切顺利
+After 3 years' effort and guidance of my advisors: Prof. Wang Sibo (advisor of summer intern at CUHK) and Prof. Chen Xue (advisor at USTC), finally I get the offer of Ph.D. at CityU.
+
+I am going to step into a new field: Artificial Intelligence. And recently I am focusing on the topic: Multi-Armed Bandits (MAB).
