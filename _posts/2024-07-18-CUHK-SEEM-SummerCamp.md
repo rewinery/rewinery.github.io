@@ -10,32 +10,37 @@ tags:
   - CUHK
 ---
 
-1. How many distinct ways can 15 people be seated at three round tables with 5 people each if the tables are distinguishable?
+- How many distinct ways can 15 people be seated at three round tables with 5 people each if the tables are distinguishable?
 
 > $$
 > \frac{15!}{5^3}
 > $$
  
 
-2. In a game, a fair die with six sides (1-6) is rolled three times. What is the probability that the sum of the results is exactly 10?
+- In a game, a fair die with six sides (1-6) is rolled three times. What is the probability that the sum of the results is exactly 10?
 <!-- 简单枚举即可，或者计算所有可能的组合再进行排列，略 -->
 
 > Just enumerate
 
-3. Design a data structure to maintain a set that supports the following operations in O(1) time: insert, delete, and getRandom. The operations should support inserting a new element, deleting an existing element, and getting a random element from the set of elements. Explain your design and its time complexity.
+- Design a data structure to maintain a set that supports the following operations in O(1) time: insert, delete, and getRandom. The operations should support inserting a new element, deleting an existing element, and getting a random element from the set of elements. Explain your design and its time complexity.
 
 > Hash Map + Array：
+>
 > Key: `num`
+>
 > Value: a list of indices such that `Array[index] = num`
+>
 > **INSERT**: Just append to the tail of the array, and add to the hash map.
+>
 > **DELETE**: Map the hash table to a position in the array, then remove that position, fill in the last element to this position, and don't forget to change the mapping of the hash table
+>
 > **SAMPLE**: Just get a random `index` and `return array[index]`
 
 See the same problem in [leetcode](https://leetcode.cn/problems/insert-delete-getrandom-o1/description/)
 
-4. Given a sorted array of n integers, describe an algorithm to find all pairs of elements that sum up to a given target value with linear time complexity. Explain the steps and justify the time complexity.
+- Given a sorted array of n integers, describe an algorithm to find all pairs of elements that sum up to a given target value with linear time complexity. Explain the steps and justify the time complexity.
 
-It is easily to write such code as follows using hash map to realize the algorithm.
+> It is easily to write such code as follows using hash map to realize the algorithm.
 
 ```Python3
 def sol2(nums: List[int], tar: int) -> List[List[int]]:
@@ -51,11 +56,12 @@ def sol2(nums: List[int], tar: int) -> List[List[int]]:
     return ret
 ```
 Time:  `O(n)`
+
 Space: `O(n)`
 
-But the algorithm above does not ultilize the quality that the array is sorted.
-
-So we use dual pointers to realize such an algorithm.
+> But the algorithm above does not ultilize the quality that the array is sorted.
+>
+> So we use dual pointers to realize such an algorithm.
 
 ```Python3
 def sol1(nums: List[int], tar: int) -> List[List[int]]:
@@ -75,4 +81,5 @@ def sol1(nums: List[int], tar: int) -> List[List[int]]:
     return ret
 ```
 Time: `O(n)`
+
 Space: `O(1)`
