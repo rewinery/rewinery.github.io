@@ -7,6 +7,6 @@ tags:
  - Ph.D.
 ---
 
-After 3 years' effort and guidance of my advisors: Prof. Wang Sibo (advisor of summer intern at CUHK) and Prof. Chen Xue (advisor at USTC), finally I get the offer of Ph.D. at CityU.
+After 3 years' effort, finally I get the offer of Ph.D. at CityU.
 
 I am going to step into a new field: Artificial Intelligence. And recently I am focusing on the topic: Multi-Armed Bandits (MAB).
