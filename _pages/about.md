@@ -11,7 +11,7 @@ redirect_from:
 
 This is my personal homepage and blog, and I will record some of my thoughts as I like.
 
-Brief Introduction
+Bio
 =====
 
 Qirun Zeng is currently an undergraduate student at the USTC School of the Gifted Young, majoring in computer science. His interest lies in:
@@ -19,13 +19,15 @@ Qirun Zeng is currently an undergraduate student at the USTC School of the Gifte
 - Algorithm
 - Machine learning
 - Game theory
+- Game development
 
-He will soon be a Ph.D. student at CityU under the guidance of Professor [Zuo Jinhang](https://jhzuo.github.io).
-
-
-He is very interested in taking algorithm contests online, and his contest accounts are: [https://clist.by/coder/rewinery](https://clist.by/coder/rewinery)
+He will soon be a Ph.D. student at CityUHK, supervised by Professor [Jinhang Zuo](https://jhzuo.github.io), starting in Fall 2025.
 
 Contact me
 =====
 
 Just feel free to contact me via e-mail in the sidebar.
+
+**Contest account**
+
+> [clist.by/coder/rewinery](https://clist.by/coder/rewinery)
