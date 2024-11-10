@@ -1,5 +1,5 @@
 ---
-title: 'leetcode 第 420 场周赛有感'
+title: 'Thinking of Leetcode weekly contest 420'
 date: 2024-10-20
 permalink: /posts/2024/10/Thinking-of-LeetCode-Weekly-Contest-420/
 tags:
@@ -7,37 +7,35 @@ tags:
   - Weekly Contest
 ---
 
-这场比赛槽点太多，但是也学到了一点，那就是大数组预处理要直接全局处理
+This contest is so ridiculous...
 
-A 了 T1、T2、T3，但是排名直逼 6000......
+I finshed problem A, B, C out of A, B, C, D. But the ranking is nearly 5000.
 
-这把掉大分，太坐牢了，想破头都没想到 T3 这个线性筛爆内存是要直接全局处理......
+Problem C is very poor.
 
-最后是用暴力做法过的，想不通为什么暴力做法能过......卡我也就算了，暴力能过是我不能接受的
+Problem set:
 
-题干：
-
-> 给你一个整数数组 nums 。
+> You are given an integer array nums.
 >
-> 一个正整数 x 的任何一个 严格小于 x 的 正 因子都被称为 x 的 真因数 。比方说 2 是 4 的 真因数，但 6 不是 6 的 真因数。
+> Any positive divisor of a natural number x that is strictly less than x is called a proper divisor of x. For example, 2 is a proper divisor of 4, while 6 is not a proper divisor of 6.
 >
-> 你可以对 nums 的任何数字做任意次 操作 ，一次 操作 中，你可以选择 nums 中的任意一个元素，将它除以它的 最大真因数 。
+> You are allowed to perform an operation any number of times on nums, where in each operation you select any one element from nums and divide it by its greatest proper divisor.
 >
-> 你的目标是将数组变为 非递减 的，请你返回达成这一目标需要的 最少操作 次数。
+> Return the minimum number of operations required to make the array non-decreasing.
 >
-> 如果 无法 将数组变成非递减的，请你返回 -1 。
-> 数据范围：
+> If it is not possible to make the array non-decreasing using any number of operations, return -1.
+>
+> Constraints:
 > - `1 <= nums.length <= 10^5`
 > - `1 <= num <= 10^6`
 
-读题：一眼埃拉托斯特尼筛法，用 `O(num log log num)` 的时间预处理，之后从后往前只需判断 `nums[i] > nums[i+1]` 是否成立，若成立，则将 `nums[i]` 替换为 `nums[i]` 的最小质因数即可。若无法替换或替换之后依旧比 `nums[i+1]` 大，那么 `return -1`。总时间开销为 `O(n + num log log num)`。
+Firstly read the problem: use sieve of Eratosthenes to preprocess in `O(num log log num)`, and then only need to judge whether `nums[i] > nums[i+1]` is valid. If valid, then set `nums[i]` as the minimum prime factor of `nums[i]`. If it can't be replaced, or it is still larger than 'nums[i+1]' after replacement, then `return -1`. Total time consumption is `O(n + num log log num)`.
 
-思路没问题。但是事后逛了讨论区才知道：力蔻是把所有测试点一起计算时间和空间开销的。于是我的代码就这样被 `MLE` 了。
+The train of thought is fine. But after looking around the discussion board, I realized that Leetcode calculates the time and space cost of all the test points together. So my code was 'MLE'.
 
-比赛中试了试暴力做法，直接对每个数从小到大求最小质因数，竟然过了......
+In the competition, I tried the violent method, and directly sought the minimum prime factor for each number from small to large, and it passed, which I can't accept...
 
-
-> 这是被爆内存的代码
+> This is the MLE code
 
 ```c++
 class Solution {
@@ -77,7 +75,7 @@ public:
 };
 ```
 
-> 最后改成如下代码才过。
+> And fianlly this code passed
 
 ```c++
 int min_prime[1000001];
