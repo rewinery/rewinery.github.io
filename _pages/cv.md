@@ -14,6 +14,7 @@ Education
 ======
 
 * B.S. in University of Science and Technology of China, 2021
+* Ph.D. in City University of Hong Kong, 2025
 
 Work experience
 ======
@@ -28,7 +29,6 @@ Skills
 * Python
 * verilog
 * MySQL
-* $\LaTeX{}$
 
 <!-- Publications
 ======
