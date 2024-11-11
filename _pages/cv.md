@@ -27,8 +27,6 @@ Skills
 
 * C/C++
 * Python
-* verilog
-* MySQL
 
 <!-- Publications
 ======
