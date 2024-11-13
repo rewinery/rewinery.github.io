@@ -19,7 +19,7 @@ Education
 Work experience
 ======
 
-* Summer 2024: Junior Research Assistant
+* July, 2024 - October, 2024: Research Assistant
   * The Chinese University of Hong Kong
 
 Skills
