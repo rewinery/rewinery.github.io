@@ -13,14 +13,15 @@ redirect_from:
 Education
 ======
 
-* B.S. in University of Science and Technology of China, 2021
-* Ph.D. in City University of Hong Kong, 2025
+* B.S. at University of Science and Technology of China, 2021
+* Ph.D. at City University of Hong Kong, 2025
 
 Work experience
 ======
 
 * July, 2024 - October, 2024: Research Assistant
   * The Chinese University of Hong Kong
+  
 
 Skills
 ======
