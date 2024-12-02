@@ -9,4 +9,4 @@ location: "Heifei, Anhui, China"
 
 ---
 
-课程实验位于 [github.com/qirunzeng/USTC-DSA-2024Spring](https://github.com/qirunzeng/USTC-DSA-2024Spring)
+Course labs are synced on GitHub: [github.com/qirunzeng/USTC-DSA-2024Spring](https://github.com/qirunzeng/USTC-DSA-2024Spring)
