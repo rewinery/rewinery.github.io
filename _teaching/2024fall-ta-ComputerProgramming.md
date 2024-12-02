@@ -9,4 +9,4 @@ location: "Heifei, Anhui, China"
 
 ---
 
-课程实验与作业同步在 github：[github.com/rewinery/USTC-ComputerProgrammingA-2024Fall](https://github.com/rewinery/USTC-ComputerProgrammingA-2024Fall)
+课程实验与作业同步在 github：[github.com/qirunzeng/USTC-ComputerProgrammingA-2024Fall](https://github.com/qirunzeng/USTC-ComputerProgrammingA-2024Fall)

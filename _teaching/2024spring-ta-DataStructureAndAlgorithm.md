@@ -9,4 +9,4 @@ location: "Heifei, Anhui, China"
 
 ---
 
-课程实验位于 [github.com/rewinery/USTC-DSA-2024Spring](https://github.com/rewinery/USTC-DSA-2024Spring)
+课程实验位于 [github.com/qirunzeng/USTC-DSA-2024Spring](https://github.com/qirunzeng/USTC-DSA-2024Spring)
